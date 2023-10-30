@@ -1,0 +1,5 @@
+steps:
+- id: 'cloudsql start'
+name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+entrypoint: 'gcloud'
+args: ['sql', 'instances', 'patch', 'procurement-stage', '--activation-policy=ALWAYS']
