@@ -2,6 +2,7 @@ steps:
 - id: 'cloudsql stop'
   name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args:
+    - '/google-cloud-sdk/bin/gcloud'  # Full path to the gcloud executable
     - 'sql'
     - 'instances'
     - 'patch'
