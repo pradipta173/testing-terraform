@@ -1,5 +1,9 @@
 steps:
 - id: 'cloudsql stop'
-name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-entrypoint: 'gcloud'
-args: ['sql', 'instances', 'patch', 'procurement-stage', '--activation-policy=NEVER']
+  name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+    - 'sql'
+    - 'instances'
+    - 'patch'
+    - 'procurement-stage'
+    - '--activation-policy=NEVER'
