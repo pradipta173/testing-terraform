@@ -1,6 +1,6 @@
 steps:
 - id: 'cloudsql stop'
-  name: 'gcr.io/google/cloud-sdk'  # Use the Google Cloud SDK image
+  name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'  # Use the Google Cloud SDK image
   entrypoint: 'gcloud'
   args:
     - 'sql'
