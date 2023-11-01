@@ -7,4 +7,4 @@ steps:
     - 'instances'
     - 'patch'
     - 'procurement-stage'
-    - '--activation-policy=NEVER'
+    - '--activation-policy=ALWAYS'
